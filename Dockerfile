@@ -34,7 +34,7 @@ ENV HTTP_CLIENT_TIMEOUT=5s
 ENV HTTP_MAX_AGE_DURATION=720h
 ENV HTTP_USER_AGENT=''
 ENV POPULAR_SITES=bing.com,github.com,instagram.com,reddit.com
-#ENV PORT=8080
+ENV PORT=8080
 ENV SERVER_MODE=redirect
 
 # Run the web service on container startup.
